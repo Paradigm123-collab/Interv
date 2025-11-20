@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Paradigm123-collab.github.io/Interv/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@daily-co/daily-js": "^0.85.0",
@@ -35,6 +37,7 @@
     "globals": "^15.11.0",
     "postcss": "^8.5.6",
     "tailwindcss": "3",
-    "vite": "^5.4.21"
+    "vite": "^5.4.21",
+    "gh-pages": "^6.0.0"
   }
 }
